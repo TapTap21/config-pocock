@@ -12,3 +12,6 @@ Set the following environment variables:\
                       "local": "path/to/file1},
                       {"remote": "s3://bucketname/folder/file1",
                        "local": "path/to/file1},]`
+
+## Name
+Config-pocock is named after the famous the rugby flanker and fetcher David Pocock
