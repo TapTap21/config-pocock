@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  test-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      AWS_ACCESS_KEY_ID: "ACCESSKEY"
+      AWS_SECRET_ACCESS_KEY: "SECRETKEY"
+      S3_CONFIG_LOCATION: "s3://bucketname/folder/file"
+      LOCAL_CONFIG_LOCATION: "path/to/file"
